@@ -9,7 +9,7 @@
 4. Oh-my-sh (https://ohmyz.sh/#install)
 5. Git command  (https://git-scm.com/download/mac)
 6. colordiff.  (brew install colordiff)
-7. Kubectl(https://kubernetes.io/docs/tasks/tools/)
+7. k(https://kubernetes.io/docs/tasks/tools/)
 ```
 
 ## Terminal Hack
@@ -30,13 +30,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.
 cp -av ~/.zshrc ~/.zshrc-$(date +%y-%m-%d-%M:%S)
 
 ##  Replace Plugins for Fancy things 
-plugins=( zsh-navigation-tools zsh-autosuggestions zsh-syntax-highlighting zsh_reload git git-auto-fetch  helm history history-substring-search iterm2 kube-ps1 kubectl minikube themes vi-mode vim-interaction docker docker-compose)
+plugins=( zsh-navigation-tools zsh-autosuggestions zsh-syntax-highlighting zsh_reload git git-auto-fetch  helm history history-substring-search iterm2 kube-ps1 k minikube themes vi-mode vim-interaction docker docker-compose)
 
 alias k=kubectl
 
 ```
 
-## Minikube Kubectl
+## Minikube k
 
 ```yaml
 brew install minikube
