@@ -36,6 +36,12 @@ alias k=kubectl
 
 ```
 
+## Enhance vim
+
+```yaml
+https://github.com/amix/vimrc#how-to-install-the-basic-version
+```
+
 ## Minikube k
 
 ```yaml
