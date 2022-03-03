@@ -17,7 +17,7 @@
 ### Install oh-my-zsh
 
 ```yaml
-##  Installing omz 
+##  Installing omz
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Adding zsh-autpsuggestion
@@ -29,7 +29,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.
 ## Backup existing file
 cp -av ~/.zshrc ~/.zshrc-$(date +%y-%m-%d-%M:%S)
 
-##  Replace Plugins for Fancy things 
+##  Replace Plugins for Fancy things
 plugins=( zsh-navigation-tools zsh-autosuggestions zsh-syntax-highlighting zsh_reload git git-auto-fetch  helm history history-substring-search iterm2 kube-ps1 k minikube themes vi-mode vim-interaction docker docker-compose)
 
 alias k=kubectl
@@ -53,8 +53,8 @@ brew install stern
 ## Minikube Start Server
 
 ```yaml
-minikube start 
-# minikube start --kubernetes-version=v1.20.2 --extra-config=apiserver.authorization-mode=RBAC 
+minikube start
+# minikube start --kubernetes-version=v1.20.2 --extra-config=apiserver.authorization-mode=RBAC
 # minikube addons enable metrics-server
 # minikube addons enable volumesnapshots
 # minikube addons enable csi-hostpath-driver
@@ -62,3 +62,13 @@ minikube start
 # minikube addons enable dashboard
 # minikube addons list
 ```
+
+## Workshop
+
+[Namespaces, Pods, Deployment file](workshop-1/1.md)
+
+[Deploy and Scale an APP file](workshop-2/2.md)
+
+[Secret & Patch  file](workshop-3/3.md)
+
+[Level Up - troubleshooting file](level-up/troubleshooting.md)
