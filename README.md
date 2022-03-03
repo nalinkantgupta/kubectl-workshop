@@ -71,4 +71,4 @@ minikube start
 
 [Secret & Patch  file](workshop-3/3.md)
 
-[Level Up - troubleshooting file](level-up/troubleshooting.md)
+[Level Up - troubleshooting file](Level-up/troubleshooting.md)
