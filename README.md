@@ -46,8 +46,6 @@ https://github.com/amix/vimrc#how-to-install-the-basic-version
 
 ```yaml
 brew install minikube
-brew install kubectx    # brew upgrade kubectx
-brew install stern
 ```
 
 ## Minikube Start Server
