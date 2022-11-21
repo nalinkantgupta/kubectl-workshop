@@ -40,18 +40,13 @@ brew install minikube
 
 ```yaml
 minikube start
-# minikube start --kubernetes-version=v1.20.2 --extra-config=apiserver.authorization-mode=RBAC
-# minikube addons enable metrics-server
-# minikube addons enable volumesnapshots
-# minikube addons enable csi-hostpath-driver
-# minikube addons enable ingress
-# minikube addons enable dashboard
-# minikube addons list
 ```
 
 ## Workshop
 
-[Namespaces, Pods, Deployment file](workshop-1/1.md)
+[Namespaces, Context](workshop-1/2.md)
+
+[Pods, Deployment file](workshop-1/1.md)
 
 [Deploy and Scale an APP file](workshop-2/2.md)
 
