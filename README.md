@@ -53,3 +53,5 @@ minikube start
 [Secret & Patch  file](workshop-3/3.md)
 
 [Level Up - troubleshooting file](Level-up/troubleshooting.md)
+
+[Official - cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
