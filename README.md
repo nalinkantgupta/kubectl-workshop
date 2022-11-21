@@ -20,18 +20,6 @@
 ##  Installing omz
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-## Adding zsh-autpsuggestion
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-## Adding zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-## Backup existing file
-cp -av ~/.zshrc ~/.zshrc-$(date +%y-%m-%d-%M:%S)
-
-##  Replace Plugins for Fancy things
-plugins=( zsh-navigation-tools zsh-autosuggestions zsh-syntax-highlighting zsh_reload git git-auto-fetch history history-substring-search iterm2 themes vi-mode vim-interaction)
-
 alias k=kubectl
 
 ```
